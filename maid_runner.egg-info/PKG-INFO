@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: maid-runner
+Version: 0.0.1
+Summary: Thread accumulator and executor
+Home-page: https://github.com/shubhendu-endu/maid_runner
+Author: Shubhendu Dwivedi
+Author-email: officialshubhendu@gmail.com
+License: UNKNOWN
+Description: # maid_runner
+        
+        This package is aimed to provide a seamless thread accumulator,
+        that can execute accumulated threads in three manners, Queue, Pool and Simultaneous Pool.
+        
+        Once execution has started, it provides with a handle by which the progress
+        of the accumulator can be tracked live in terms of percentage of work done.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
