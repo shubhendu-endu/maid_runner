@@ -5,3 +5,5 @@ that can execute accumulated threads in three manners, Queue, Pool and Simultane
 
 Once execution has started, it provides with a handle by which the progress
 of the accumulator can be tracked live in terms of percentage of work done.
+
+Test PyPI: https://test.pypi.org/project/maid-runner/
