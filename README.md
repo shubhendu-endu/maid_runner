@@ -13,6 +13,7 @@ Usage:
 ######
 
 from maid_runner import chorus
+
 from maid_runner import Maid
 
 
@@ -53,8 +54,8 @@ class Dummy:
         self.func6()
         return Maid.start_working()
 
+In Main method:
 
-if __name__ == '__main__':
     import time
     obj = Dummy()
     for progress in obj.STAGE_1():
